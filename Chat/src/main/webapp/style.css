@@ -1,0 +1,94 @@
+/* style.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(to bottom right, #5d6ee2, #8e47e0);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #000;
+}
+
+input[type="text"],
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+input[type="text"] {
+  width: 70%;
+}
+
+#send-button {
+  margin-top: 10px;
+  background-color: #5d6ee2;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+#send-button:hover {
+  background-color: #8e47e0;
+}
+
+#message-list {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+}
+
+.message-item {
+  margin-bottom: 10px;
+}
+
+.message-item .username {
+  font-weight: bold;
+  color: #000;
+}
+
+.message-item .content {
+  margin-left: 10px;
+  color: #333;
+}
+
+.chat-room-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="dao.Message" table="MESSAGES">
+		<id name="idMessage" column="ID_MESSAGE">
+			<generator class="increment" />
+		</id>
+		<property name="username" column="USERNAME" />
+		<property name="content" column="CONTENT" />
+		<property name="idAccount" column="ID_ACCOUNT" />
+		<property name="timetamp" column="TIMETAMP" />
+		
+	</class>
+</hibernate-mapping>
