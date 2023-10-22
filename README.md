@@ -29,4 +29,5 @@ Visit http://localhost:8080
 
 https://github.com/hatimzh/Chat-Room/assets/96501113/1b623138-b990-41b0-b37c-ee74f340ea26
 
+> **Note :** _if you don't want to start the project with an empty database, you should change the "create" value with "update" in this <a href="https://github.com/hatimzh/Chat-Room/blob/main/src/main/java/Hibernate.cfg.xml#L25">line</a>_
 
