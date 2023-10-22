@@ -1,7 +1,7 @@
 # Chat-Room
 Simple JAVA EE chat room project.
 # Usage
-- Upload/clone this project and run it in exlipce :
+- Upload/clone this project and run it in Eclipce or any IDE :
   
   ```shell
   $ git clone https://github.com/hatimzh/Chat-Room.git
