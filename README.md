@@ -1,7 +1,7 @@
 # Chat-Room
 Simple JAVA EE chat room project.
 # Usage
-- Upload/clone this project and run it in Eclipce or any IDE :
+- Download/clone this project and run it in Eclipce or any IDE :
   
   ```shell
   git clone https://github.com/hatimzh/Chat-Room.git
@@ -13,13 +13,13 @@ Simple JAVA EE chat room project.
 - Build docker image
 
 ```shell
-$ docker image build -t chat-hatim:1.0.0 .
+docker image build -t chat-hatim:1.0.0 .
 ```
 
 - Run application
 
 ```shell
-$ docker run --rm -p 8080:8080 chat-hatim:1.0.0  
+docker run --rm -p 8080:8080 chat-hatim:1.0.0  
 ```
 
 Visit http://localhost:8080
